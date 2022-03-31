@@ -27,12 +27,13 @@ for i in range(len(numbs)):
     if numbs[i] > numbs[j]:
         # numbs[i], numbs[j] = numbs[j], numbs[i]
         temp = numbs[i]
-        temp1= numbs[j]
+        temp1 = numbs[j]
         numbs[i] = numbs[j]
         numbs[j] = temp
 print(numbs)
 
-string = 'abcd'
+
+strg = 'abcd'
 
 
 
