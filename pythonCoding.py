@@ -17,7 +17,7 @@ print(names)
 ############### Range #################################
 rn = range(6, 15, 2)
 for r in rn:
-    print(r, end=", ")
+    print(r, end=", \n")
 
 ######################## Reverse Number List ############################
 numbs = [1,5,6,9,0]
