@@ -1,5 +1,13 @@
 
-# ----------------------- Sort the numbers ---------------------------#
+print("----------------------- 'Input' ---------------------------")
+name = input()
+print(name)
+
+digit = int(input())
+print(digit)
+
+print()
+print("----------------------- 'Sort the numbers' ---------------------------")
 nums = [2, 5, 1, 10, 3]
 print(nums)
 
@@ -14,10 +22,14 @@ names.sort()
 print(names)
 
 print()
-# ----------------------- Range --------------------------------------#
+print("----------------------- 'Range' --------------------------------------")
 rn = range(6, 15, 2)
 for r in rn:
     print(r, end=", \n")
+
+print()
+for nm in range(5):
+    print("My name")
 
 print()
 #--------------------- Reverse Number List ---------------------------#
