@@ -48,7 +48,7 @@ for i in range(len(numbs)):
             numbs[i] = numbs[j]
             numbs[j] = temp
 print(numbs)
-"""
+
 print()
 print("---------------------Even or Odd-------------------------------")
 
@@ -56,10 +56,40 @@ print("Enter the number:- ")
 num1 = int(input())
 if num1 % 2 == 0:
     print("The number is Even.")
-    # print("{} is even number.".format(num1))  # Formatting
+    # print("{} is even number".format(num1))  # Formatting
 else:
     print("Number is Odd.!")
+"""
+print()
+print("---------------------Prime numbers-------------------------------")
+
+print("Enter any number: ")
+pnum = int(input())
+
+p = 0
+for pn in range(2, pnum):
+    if pnum % pn == 0:
+        p = 1
+        break
+if p == 0:
+    print("This is a Prime number")
+else:
+    print("The number is not Prime")
 
 print()
 print("--------------------- String operations -----------------------")
 strings = 'abcd'
+
+
+
+
+print("Enter the num:")
+mynum=int(input())
+
+pr=0
+for p in range(2,mynum):
+    if mynum%p==0:
+        p=1
+        break
+if pr==1: print("")
+
