@@ -59,7 +59,7 @@ if num1 % 2 == 0:
     # print("{} is even number".format(num1))  # Formatting
 else:
     print("Number is Odd.!")
-"""
+
 print()
 print("---------------------Prime numbers-------------------------------")
 
@@ -75,21 +75,15 @@ if p == 0:
     print("This is a Prime number")
 else:
     print("The number is not Prime")
-
+"""
 print()
 print("--------------------- String operations -----------------------")
-strings = 'abcd'
 
+myString = "AAKASH"
+print(myString[::-1])
 
-
-
-print("Enter the num:")
-mynum=int(input())
-
-pr=0
-for p in range(2,mynum):
-    if mynum%p==0:
-        p=1
-        break
-if pr==1: print("")
-
+s = "Saxena"
+str = ""
+for i in s:
+    str = i + str
+print(str)
