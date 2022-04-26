@@ -87,3 +87,11 @@ str = ""
 for i in s:
     str = i + str
 print(str)
+
+
+myName = "Aakash Saxena"
+
+firstname = myName.split()
+for name in firstname:
+    print(name)
+
